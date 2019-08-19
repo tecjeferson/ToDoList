@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Document</title>
+    </head>
+
+    <body>
+        <form action="">
+            <label for="">Digite seu todo</label>
+            <input type="text" id="conteudoAdd">
+            <input type="button" value="Adicionar" onclick="capturaItem()">
+            <ul id="ul">
+
+            </ul>
+        </form>
+
+
+
+
+    </body>
+
+
+    <script>
+        function capturaItem() {
+            const ul = document.getElementById('ul')
+            const valorDigitado = document.getElementById('conteudoAdd').value
+
+            const li = document.createElement('li')
+            const newItem = ul.appendChild(li)
+            const result = newItem.innerText = valorDigitado
+
+
+
+
+
+
+
+
+
+            document.body.appendChild(result)
+
+
+
+
+        }
+    </script>
+
+</html>
