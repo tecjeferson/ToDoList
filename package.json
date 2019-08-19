@@ -9,9 +9,16 @@
   "author": "Jeferson Rocha",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
+    "jQuery": "^1.7.4",
     "node": "^12.8.1",
     "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "curl": "^0.1.4",
+    "jquery": "^3.4.1",
+    "jsdom": "^15.1.1"
   }
 }
