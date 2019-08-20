@@ -1,9 +1,13 @@
-const cheerio = require('cheerio');
-let data = [{item: 'Jeferson'}, {item: 'Emanuele'}, {item: 'Ryan'}]
+function capturaItem() {
+    let data = []
+    const ul = document.getElementById('ul')
+    const contentAdded = document.getElementById('contentAdded').value
 
-const h1 = cheerio.load('<h1>Teste</h1>')
+    const li = document.createElement('li')
+    const list = ul.appendChild(li)
+    const newItem = list.innerText = contentAdded
 
-module.exports = {
-    data,
-    h1
+
+    document.body.appendChild(newItem)
+   
 }
