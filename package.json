@@ -17,6 +17,6 @@
   },
   "devDependencies": {
     "curl": "^0.1.4",
-    "jsdom": "^15.1.1"
+    "jsdom": "^16.5.0"
   }
 }
